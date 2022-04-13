@@ -60,7 +60,7 @@
             для вашего бизнеса
           </h1>
 
-          <button type="button" class="hero-button" data-open-modal>Заказать услугу</button>
+          <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
 
@@ -466,7 +466,7 @@
                 <a
                   href="https://goo.gl/maps/sbmDoguWazhmyjEM8"
                   target="_blank"
-                  class="contacts-footer-location"
+                  class="contacts-footer-link location"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
@@ -516,10 +516,12 @@
     </footer>
 
     <!-- Модальное окно -->
-    <div class="backdrop is-hidden" data-backdrop>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-btn" data-close-modal>&#10005</button>
+        <button class="modal-btn" data-modal-close>&#10005</button>
       </div>
     </div>
+
+    <script src="./js/modal.js"></script>
   </body>
 </html>
